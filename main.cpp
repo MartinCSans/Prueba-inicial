@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
@@ -9,15 +10,15 @@ long double numero;
 long double resultado=0;
 
 int main(int argc, char** argv) {
-	cout<<"introduce el numero de valores a sumar"<<endl;
-	cin >> n;
+	std::cout<<"introduce el numero de valores a sumar"<<endl;
+	std::cin >> n;
 	for (int i=1;i<=n;i++)
 	{
-		cout<<"introduce el valor "<<i<<endl;
-		cin >> numero;
+		std::cout<<"introduce el valor "<<i<<endl;
+		std::cin >> numero;
 		resultado+=numero;
 	}
-	cout<<"El resultado de la suma es:"<<endl<<resultado<<endl;
+	std::cout<<"El resultado de la suma es:"<<endl<<resultado<<endl;
 	
 	
 	return 0;
