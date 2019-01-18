@@ -13,11 +13,11 @@ int main(int argc, char** argv) {
 	cin >> n;
 	for (int i=1;i<=n;i++)
 	{
-		cout<<"introduce el valor"<<i<<endl;
+		cout<<"introduce el valor "<<i<<endl;
 		cin >> numero;
 		resultado+=numero;
 	}
-	cout<<"Elresultado de la suma es:"<<resultado<<endl;
+	cout<<"El resultado de la suma es:"<<endl<<resultado<<endl;
 	
 	
 	return 0;
